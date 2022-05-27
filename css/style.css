@@ -1,0 +1,156 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&family=Oswald:wght@200;300;400;500;600;700&display=swap');
+
+	/*font-family: 'Open Sans', sans-serif;
+	font-family: 'Oswald', sans-serif;*/
+
+body{
+	font-family: 'Oswald', sans-serif;
+}
+
+
+:root{
+	--color-1: #E5E5E5;
+	--color-2: #341D0F;
+	--color-3: #E82E7C;
+	--color-4: #33D2E9;
+	--color-font: #803C2C;
+	--color-font-2: #4D2424;
+}
+
+header {
+    
+    background-color: var(--color-1);
+    background-image: url(../images/hero-banner-bg.jpg);
+    min-height: 85vh;
+    background-size: cover;
+   
+    background-repeat: no-repeat;
+}
+.navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .show>.nav-link {
+    color: var(--color-font);
+    font-family: 'Oswald', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-weight: 600;
+}
+
+.btn-shop {
+    background: var(--color-3);
+    color: #fff;
+    padding: 10px 20px;
+    font-weight: 600;
+    margin-left: 30px;
+}
+.btn-shop:hover {
+    background: var(--color-font);
+    color: #fff;
+}
+.btn-check:focus+.btn, .btn:focus {
+    
+    box-shadow: 0 0 0 0;
+}
+header .hero-content{font-family: 'Oswald' !important;margin-top: 72px;}
+.hero-content h1 {
+    color: #fff;
+    font-size: 50px;
+    font-weight: 900;
+}
+.hero-content p{color: #fff;font-size: 30px;}
+.hero-content a{}
+.hero-content .btn-custom{background: #fff;padding: 8px 20px;font-size: 20px;font-weight: 600;color: #341e11;text-transform: uppercase;}
+
+/***==================product-section===================*/
+.product_section{
+	padding-top: 50px;
+}
+.product-heading {
+    text-align: center;
+    
+}
+.product-heading h2{color: var(--color-font);font-size: 50px;font-weight: 900;}
+.product-heading p{color: var(--color-font);font-size: 28px;}
+.product_section .products {
+    text-align: center;
+    
+    padding-top: 15px;padding-left: 50px;padding-right: 50px;transform: scale(0.8);
+}
+.products:hover {
+    transform: scale(0.9);
+    transition-duration: 1.3s;
+    transition-timing-function: ease-in-out;
+}
+.products img{}
+
+.products h2{color: var(--color-font);font-size: 25px;margin-bottom: 0;margin-top: 14px;}
+.products a {
+   
+}
+.btn_product_1 {
+    background: #e70061;
+    color: #fff;
+    font-size: 18px;
+    padding: 5px 30px;
+    margin-top: 18px;
+    border-radius: 0;
+    font-weight: 600;
+}
+.btn_product_2{
+	background: #79b481;color: #fff;font-size: 18px;padding: 5px 30px;margin-top: 18px;border-radius: 0;
+	font-weight: 600;
+	transition: shine;
+}
+
+
+.btn_product_3{
+	background: #a15b43;color: #fff;font-size: 18px;padding: 5px 30px;margin-top: 18px;border-radius: 0;
+	font-weight: 600;
+}
+
+.btn_product_1:hover {
+    background-image: linear-gradient(90deg,transparent,hsla(0,0%,100%,.25),transparent);
+    transition-delay: 0.30s;
+    color: #fff;
+    
+}
+
+
+
+
+.btn_product_2:hover {
+	background-image: linear-gradient(90deg,transparent,hsla(0,0%,100%,.25),transparent);
+    transition-delay: 0.30s;
+    color: #fff;
+    
+}
+.btn_product_3:hover {
+	background-image: linear-gradient(90deg,transparent,hsla(0,0%,100%,.25),transparent);
+    transition-delay: 0.30s;
+    color: #fff;
+    
+}
+
+/***==================product-section===================*/
+/***==================explore-section===================*/
+.explore_section{}
+.explore_section .content{text-align: center;}
+.explore_section .content img{height: 65vh;object-fit: cover;object-position: top;}
+.explore_section .content a{text-decoration: none;color: #fff;text-transform: capitalize;font-size: 40px;font-weight: 900;}
+.explore_section .content a h2{font-size: 39px;font-weight: 900;padding-top: 50%;}
+.color {
+    background: var(--color-4);
+}
+.explore_section .row {
+    --bs-gutter-x: 0;
+    --bs-gutter-y: 0;
+}
+.explore_section .container-fluid{
+   
+    padding-right: 0;
+    padding-left: 0;
+}
+.fa-solid, .fas {
+    font-family: "Font Awesome 6 Free";
+    font-weight: 600!important;
+    color: #fff;
+    font-size: 55px;
+}
